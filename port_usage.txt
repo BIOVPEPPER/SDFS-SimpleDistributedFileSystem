@@ -1,0 +1,26 @@
+6000: Data node's port to receive membership list from membership service.
+6001: Coordinator's port to receive request from client.
+6002: Coordinator's port to receive Wack from data nodes.
+6003: Data node's port to receive write request from client and fellow data nodes.
+6004: Coordinator's port to receive membership list from membership service.
+6005: Coordinator's port to receive version Num from data nodes.
+6006: Data node's port to receive get version num requests.
+6007: Data node's port to receive read request from client.
+6008: Data node's port to receive delete request from coordinator.
+6009: Data node's port to receive replication instruction from coordinator.
+6010: Coordinator's port to receive Dack from data nodes.
+6011: Elector's port to receive fail warning from membership service.
+6012: Elector's port to receive membership list from membership service.
+6013: Elector's port to receive election message from other electors.
+6014: Elector's port to receive OK from other electors.
+6015: Elector's port to receive new master confirmation from other electors. 
+6016: Data node's port to receive meta data backup.
+6017: Coordinator's port to receive failure message of Data Nodes.
+6018: Coordinator's port to receive replication ack from Data Nodes.
+6019: Elector's port to receive get master num request.
+6020: Coordinator's port to receive get META request.
+6021: Data node's port to receive get local store request.
+6022: Coordinator's port to receive ger-versions request.
+6023: Data node's port to receive get heartbeat request.
+6024: Coordinator's port to receive heartbeat response.
+7001: Client's port to receive membership list from membership service and coordinator name from elector.
